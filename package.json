@@ -1,0 +1,11 @@
+{
+  "name": "pnpm12-git-ssh-url-normalization",
+  "version": "0.0.1",
+  "description": "Probe for pnpm 12 RC 1 git URL normalization and empty version range semantics",
+  "private": true,
+  "dependencies": {
+    "chalk": "5.3.0",
+    "debug": "",
+    "is-positive": "git+ssh://git@github.com/sindresorhus/is-positive.git#semver:^3.1.0"
+  }
+}

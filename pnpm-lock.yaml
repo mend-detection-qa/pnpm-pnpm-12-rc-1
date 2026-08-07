@@ -1,0 +1,50 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      chalk:
+        specifier: 5.3.0
+        version: 5.3.0
+      debug:
+        specifier: ''
+        version: 4.3.5
+      is-positive:
+        specifier: 'git+ssh://git@github.com/sindresorhus/is-positive.git#semver:^3.1.0'
+        version: 'https://github.com/sindresorhus/is-positive.git#commit=c9b30e71d704cd30fa71f2edd1ecc7dcc4985493'
+
+packages:
+
+  chalk@5.3.0:
+    resolution:
+      integrity: sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w==
+
+  debug@4.3.5:
+    resolution:
+      integrity: sha512-pt0bNEmneDIvdL1Xsd9oDQ/wrQRkXDT4AUWlNZNPKvW5x/jyO9VFXkJUP07vQ2upmw5PlaITaPKc31jK13V+jg==
+
+  ms@2.1.2:
+    resolution:
+      integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
+
+  'is-positive@https://github.com/sindresorhus/is-positive.git#commit=c9b30e71d704cd30fa71f2edd1ecc7dcc4985493':
+    resolution:
+      tarball: 'https://codeload.github.com/sindresorhus/is-positive/tar.gz/c9b30e71d704cd30fa71f2edd1ecc7dcc4985493'
+    version: 3.1.0
+
+snapshots:
+
+  chalk@5.3.0: {}
+
+  debug@4.3.5:
+    dependencies:
+      ms: 2.1.2
+
+  ms@2.1.2: {}
+
+  'is-positive@https://github.com/sindresorhus/is-positive.git#commit=c9b30e71d704cd30fa71f2edd1ecc7dcc4985493': {}

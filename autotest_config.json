@@ -36,9 +36,9 @@
       "_comment_expected_dependencies_number": "Optional. Expected number of dependencies with comparison operator. Operators: gt (>), gte (>=), lt (<), lte (<=), eq (==). If not provided, this check will not be performed.",
       "direct_dependencies_names_list": {
         "eq": [
-          "chalk",
-          "debug",
-          "is-positive"
+          "chalk-5.3.0.tgz",
+          "debug-4.3.5.tgz",
+          "is-positive-3.1.0.tgz"
         ]
       },
       "transitive_dependencies_names_list": {
